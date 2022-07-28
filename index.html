@@ -80,17 +80,18 @@
         <div class="container w-11/12 mx-auto sm:w-11/12 sm:mx-auto">
             <div id="default-carousel" class="relative" data-carousel="static">
                 <!-- Carousel wrapper -->
-                <div class="overflow-hidden relative h-56 rounded-lg md:h-screen">
+                <div class="overflow-hidden relative h-56 lg:rounded-lg  md:h-screen">
                     <!-- Item 1 -->
-                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 "
+                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20  bg-red-400"
                         data-carousel-item="">
                         <!-- <div
-                            class=" flex flex-col flex-wrap w-3/4 sm:w-3/4 text-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2 space-y-2 sm:space-y-3 z-10 ">
-                            <div class="text-3xl font-bold lg:text-7xl lg:font-bold">
+                            class=" flex flex-col flex-wrap w-3/4 sm:w-3/4 text-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2 space-y-2 sm:space-y-3 z-10 text-lg bg-blue-500">
+                            <div class=" font-bold lg:text-7xl lg:font-bold">
                                 <h1 class="">Get Started Digital</h1>
                                 <h1 class="">Learning</h1>
                             </div>
-                            <p class="text-sm lg:text-lg ">It is a long established fact that a reader will be distracted by the
+                            <p class="text-sm lg:text-lg ">It is a long established fact that a reader will be
+                                distracted by the
                                 readable content of
                                 a page when looking at its layout.</p>
                             <button type="button"
@@ -99,7 +100,9 @@
 
                         </div> -->
 
-                        <img src="images/cover/cover-1.png" class="brightness-75" alt="...">
+                        <div class="bg-slate-400 h-full">
+                            <img src="images/cover/cover-1.png" class="brightness object-cover h-full w-full" alt="...">
+                        </div>
                     </div>
                     <!-- Item 2 -->
                     <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
@@ -155,70 +158,89 @@
         </div>
         <!-- Flowbite carousel End -->
 
-          <!--Find courses Section Start-->
-            <section class="my-3 container mx-auto lg:px-96 py-12 leading-normal text-center">
-                <h1 class="text-xl font-bold">
-                    Discover Our Popular Courses
-                </h1>
-                <p class="">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                </p>
-            </section>
+        <!--Find courses Section Start-->
+        <section class="my-3 container mx-auto lg:px-96 py-12 leading-normal text-center">
+            <h1 class="text-xl font-bold">
+                Discover Our Popular Courses
+            </h1>
+            <p class="">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+            </p>
+        </section>
         <!--Find courses Section End-->
 
         <!-- courses start -->
         <section class="lg:mx-20 mt-8 grid lg:grid-cols-2 gap-y-6 ">
             <!-- Item 1  -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-1.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-1.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fundamental Of UI/UX Design</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
             <!-- Item 2 -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-2.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-2.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Javascript Basic to advanced</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
             <!-- Item 3 -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-3.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-3.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fullstack Web Development</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
             <!-- Item 4 -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-4.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-4.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Digital Marketing</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
             <!-- Item 5 -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-5.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-5.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Photography Basic Rules</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
             <!-- Item 6 -->
-            <a href="#" class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="images/course/course-6.png" alt="">
+            <a href="#"
+                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                    src="images/course/course-6.png" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Motion Graphics</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
+                        2021 so far, in reverse chronological order.</p>
                     <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
                 </div>
             </a>
