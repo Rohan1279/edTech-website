@@ -22,239 +22,260 @@
     </script>
     <!-- flowbite CDN -->
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+    <!-- fontawesome icon -->
+    <script src="https://kit.fontawesome.com/0f64841504.js" crossorigin="anonymous"></script>
+
 </head>
+<main>
 
-<body>
-    <header>
-        <!-- Flowbite Navbar Start-->
-        <div class="container w-11/12 mx-auto sm:w-11/12 sm:mx-auto mb-5">
-            <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-                <div class="container flex flex-wrap justify-between items-center mx-auto">
-                    <a href="#" class="flex items-center">
-                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Edu
-                            Junction</span>
-                    </a>
-                    <button data-collapse-toggle="navbar-default" type="button"
-                        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                        aria-controls="navbar-default" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul
-                            class="flex justify-center mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                            <li>
-                                <a href="#"
-                                    class="block py-2 pr-4 pl-3 text-red-700 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                                    aria-current="page">Home</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="#"
-                                    class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Flowbite Navbar End-->
+    <body>
+        <header>
 
-        <!-- Flowbite carousel Start -->
-        <div class="container w-11/12 mx-auto sm:w-11/12 sm:mx-auto drop-shadow-2xl">
-            <div id="default-carousel " class="relative" data-carousel="static">
-                <!-- Carousel wrapper -->
-                <div class="overflow-hidden relative h-56 rounded-lg  md:h-screen ">
-                    <!-- Item 1 -->
-                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 "
-                        data-carousel-item="">
-                        <div
-                            class=" flex flex-col flex-wrap w-3/4 sm:w-3/4 text-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2 space-y-2 sm:space-y-3 z-10 text-lg ">
-                            <div class="text-2xl font-bold md:text-7xl md:font-bold ">
-                                <h1 class="">Get Started Digital</h1>
-                                <h1 class="">Learning</h1>
-                            </div>
-                            <p class="text-sm lg:text-lg ">It is a long established fact that a reader will be
-                                distracted by the
-                                readable content of
-                                a page when looking at its layout.</p>
-                            <button type="button"
-                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none w-32 mx-auto">Get
-                                Started</button>
 
-                        </div>
-
-                        <div class="bg-slate-400 h-full">
-                            <img src="images/cover/cover-1.png" class="brightness object-cover h-full w-full" alt="...">
+            <!-- Flowbite Navbar Start-->
+            <div class="container w-11/12 mx-auto sm:w-11/12 sm:mx-auto mb-5">
+                <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+                    <div class="container flex flex-wrap justify-between items-center mx-auto">
+                        <a href="#" class="flex items-center">
+                            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Edu
+                                Junction</span>
+                        </a>
+                        <button data-collapse-toggle="navbar-default" type="button"
+                            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            aria-controls="navbar-default" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                            <ul
+                                class="flex justify-center mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 pr-4 pl-3 text-red-700 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                                        aria-current="page">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
-                        data-carousel-item="">
-                        <img src="images/cover/cover-2.jpg" class="brightness object-cover h-full w-full" alt="...">
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
-                        data-carousel-item="">
-                        <img src="images/cover/cover-3.jpg" class="brightness object-cover h-full w-full" alt="...">
-                    </div>
-                </div>
-                <!-- Slider indicators -->
-                <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-                    <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true"
-                        aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                    <button type="button"
-                        class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                        aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                    <button type="button"
-                        class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
-                        aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                </div>
-                <!-- Slider controls -->
-                <button type="button"
-                    class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-                    data-carousel-prev="">
-                    <span
-                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
-                            </path>
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button"
-                    class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
-                    data-carousel-next="">
-                    <span
-                        class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
-                            </path>
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
+                </nav>
             </div>
-
-        </div>
-        <!-- Flowbite carousel End -->
+            <!-- Flowbite Navbar End-->
 
 
+            <!-- Flowbite carousel Start -->
+            <div class="container w-11/12 mx-auto sm:w-11/12 sm:mx-auto drop-shadow-2xl">
+                <div id="default-carousel " class="relative" data-carousel="static">
+                    <!-- Carousel wrapper -->
+                    <div class="overflow-hidden relative h-56 rounded-lg  md:h-screen ">
+                        <!-- Item 1 -->
+                        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 "
+                            data-carousel-item="">
+                            <div
+                                class=" flex flex-col flex-wrap w-3/4 sm:w-3/4 text-center absolute top-1/2 left-1/2 text-white -translate-x-1/2 -translate-y-1/2 space-y-2 sm:space-y-3 z-10 text-lg ">
+                                <div class="text-2xl font-bold md:text-7xl md:font-bold ">
+                                    <h1 class="">Get Started Digital</h1>
+                                    <h1 class="">Learning</h1>
+                                </div>
+                                <p class="text-sm lg:text-lg ">It is a long established fact that a reader will be
+                                    distracted by the
+                                    readable content of
+                                    a page when looking at its layout.</p>
+                                <button type="button"
+                                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none w-32 mx-auto">Get
+                                    Started</button>
 
-        <!--Find courses Section Start-->
-        <section class="my-3 container mx-auto lg:px-96 py-12 leading-normal text-center space-y-2">
-            <h1 class="text-3xl font-bold">
-                Discover Our Popular Courses
-            </h1>
-            <p class="text-base text-[#777777]">
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout.
-            </p>
-        </section>
-        <!--Find courses Section End-->
+                            </div>
 
-
-
-        <!-- courses start -->
-        <section class="lg:mx-20 mt-8 grid lg:grid-cols-2 gap-y-6 ">
-            <!-- Item 1  -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-1.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fundamental Of UI/UX Design</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                            <div class="bg-slate-400 h-full">
+                                <img src="images/cover/cover-1.png" class="brightness object-cover h-full w-full"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
+                            data-carousel-item="">
+                            <img src="images/cover/cover-2.jpg" class="brightness object-cover h-full w-full" alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
+                            data-carousel-item="">
+                            <img src="images/cover/cover-3.jpg" class="brightness object-cover h-full w-full" alt="...">
+                        </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                        <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true"
+                            aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                        <button type="button"
+                            class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
+                            aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                        <button type="button"
+                            class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
+                            aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button type="button"
+                        class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-prev="">
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-next="">
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
                 </div>
-            </a>
-            <!-- Item 2 -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-2.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Javascript Basic to advanced</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
-                </div>
-            </a>
-            <!-- Item 3 -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-3.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fullstack Web Development</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
-                </div>
-            </a>
-            <!-- Item 4 -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-4.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Digital Marketing</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
-                </div>
-            </a>
-            <!-- Item 5 -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-5.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Photography Basic Rules</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
-                </div>
-            </a>
-            <!-- Item 6 -->
-            <a href="#"
-                class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
-                <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-                    src="images/course/course-6.png" alt="">
-                <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Motion Graphics</h5>
-                    <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions of
-                        2021 so far, in reverse chronological order.</p>
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
-                </div>
-            </a>
 
-        </section>
-        <!-- courses end -->
+            </div>
+            <!-- Flowbite carousel End -->
 
 
-        <!-- explore section start-->
-        <!-- <section class="container mx-auto mt-8">
+        </header>
+
+        <main>
+
+
+            <!--Find courses Section Start-->
+            <section class="my-3 mx-12 md:px-48 lg:mx-2 lg:px-56  py-12 leading-normal text-center space-y-2">
+                <h1 class="text-3xl font-bold">
+                    Discover Our Popular Courses
+                </h1>
+                <p class="text-base text-[#777777]">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout.
+                </p>
+            </section>
+            <!--Find courses Section End-->
+
+
+            <!-- courses start -->
+            <section class="lg:mx-20 mt-8 grid lg:grid-cols-2 gap-y-6 ">
+                <!-- Item 1  -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-1.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fundamental Of UI/UX Design</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+                <!-- Item 2 -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-2.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Javascript Basic to advanced</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+                <!-- Item 3 -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-3.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Fullstack Web Development</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+                <!-- Item 4 -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-4.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Digital Marketing</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+                <!-- Item 5 -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-5.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Photography Basic Rules</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+                <!-- Item 6 -->
+                <a href="#"
+                    class="w-11/12 mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-slate-200">
+                    <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+                        src="images/course/course-6.png" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal w-2/3">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Motion Graphics</h5>
+                        <p class="mb-3 font-normal text-black">Here are the biggest enterprise technology acquisitions
+                            of
+                            2021 so far, in reverse chronological order.</p>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-[#289BDE]">Price : 20$</h5>
+                    </div>
+                </a>
+
+            </section>
+            <!-- courses end -->
+
+
+            <!-- explore section start-->
+            <!-- <section class="container mx-auto mt-8">
             <a href="#"
                 class="w-screen mx-auto flex flex-col rounded-lg border shadow-md md:flex-row md:max-w-6xl hover:bg-slate-200">
                 <div class="w-1/2">
@@ -288,151 +309,167 @@
                 </div>
             </a>
         </section> -->
-        <!-- explore section end -->
+            <!-- explore section end -->
 
 
-        <!-- FAQ Section top starts -->
-        <section class="my-3 mx-12 md:px-48 lg:mx-2 lg:px-56  py-12 leading-normal text-center space-y-2">
-            <h1 class="text-3xl font-bold">
-                Frequently Asked Questions
-            </h1>
-            <p class="text-base text-[#777777]">
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout.
-            </p>
-        </section>
-        <!-- FAQ Section top ends -->
+            <!-- FAQ Section top starts -->
+            <section class="my-3 mx-12 md:px-48 lg:mx-2 lg:px-56  py-12 leading-normal text-center space-y-2">
+                <h1 class="text-3xl font-bold">
+                    Frequently Asked Questions
+                </h1>
+                <p class="text-base text-[#777777]">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout.
+                </p>
+            </section>
+            <!-- FAQ Section top ends -->
 
 
+            <!-- FAQ starts -->
+            <section class="lg:w-1/2 lg:mx-auto md:w-5/6 md:mx-auto">
+                <div id="accordion-open" data-accordion="open">
 
-        <!-- FAQ starts -->
-
-        <section class="lg:w-1/2 lg:mx-auto md:w-5/6 md:mx-auto">
-            <div id="accordion-open" data-accordion="open">
-
-                <!-- FAQ 1  -->
-                <h2 id="accordion-open-heading-1">
-                    <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-left border border-b-0 "
-                        data-accordion-target="#accordion-open-body-1" aria-expanded="true"
-                        aria-controls="accordion-open-body-1">
-                        <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor"
+                    <!-- FAQ 1  -->
+                    <h2 id="accordion-open-heading-1">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left border border-b-0 "
+                            data-accordion-target="#accordion-open-body-1" aria-expanded="true"
+                            aria-controls="accordion-open-body-1">
+                            <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> What is the difference between flexbox and grid?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
-                            </svg> What is the difference between flexbox and grid?</span>
-                        <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
-                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                </h2>
-                <div id="accordion-open-body-1" class="" aria-labelledby="accordion-open-heading-1">
-                    <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
-                        <ul class="list-disc">
-                            <li><span class="text-xl font-bold">Flexbox</span>
-                                <ol class="list-decimal">
-                                    <li>One dimensional</li>
-                                    <li>Allows to distribute space dynamicaly across emlements of an unknown size, hence
-                                        the term “flex”</li>
-                                    <li>Flex items can stretch to the height of the flex container, meaning that equal
-                                        height columns were possible.</li>
-                                </ol>
-                            </li>
-                            <li><span class="text-xl font-bold">Grid</span>
-                                <ol class="list-decimal">
-                                    <li>Multi dimensional</li>
-                                    <li> Grid property offers a grid-based layout system having rows and columns. It
-                                        makes the designing of web pages easy without positioning and floating</li>
-                                    <li>We can use grid to create a similar effect to flexbox, while still keeping the
-                                        content arranged in strict rows and columns.</li>
-                                </ol>
-                            </li>
-                        </ul>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-1" class="" aria-labelledby="accordion-open-heading-1">
+                        <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
+                            <ul class="list-disc">
+                                <li><span class="text-xl font-bold">Flexbox</span>
+                                    <ol class="list-decimal">
+                                        <li>One dimensional</li>
+                                        <li>Allows to distribute space dynamicaly across emlements of an unknown size,
+                                            hence
+                                            the term “flex”</li>
+                                        <li>Flex items can stretch to the height of the flex container, meaning that
+                                            equal
+                                            height columns were possible.</li>
+                                    </ol>
+                                </li>
+                                <li><span class="text-xl font-bold">Grid</span>
+                                    <ol class="list-decimal">
+                                        <li>Multi dimensional</li>
+                                        <li> Grid property offers a grid-based layout system having rows and columns. It
+                                            makes the designing of web pages easy without positioning and floating</li>
+                                        <li>We can use grid to create a similar effect to flexbox, while still keeping
+                                            the
+                                            content arranged in strict rows and columns.</li>
+                                    </ol>
+                                </li>
+                            </ul>
 
-                        <!-- <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of
+                            <!-- <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of
                             interactive components built on top of Tailwind CSS including buttons, dropdowns, modals,
                             navbars, and more.
                         </p>
                         <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to and start
                             developing websites even faster with components on top of Tailwind CSS.
                         </p> -->
+                        </div>
                     </div>
-                </div>
 
-                <!-- FAQ 2  -->
-                <h2 id="accordion-open-heading-2">
-                    <button type="button"
-                        class="flex items-center justify-between w-full p-5 font-medium text-left border border-b-0 "
-                        data-accordion-target="#accordion-open-body-2" aria-expanded="true"
-                        aria-controls="accordion-open-body-2">
-                        <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor"
+                    <!-- FAQ 2  -->
+                    <h2 id="accordion-open-heading-2">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left border border-b-0 "
+                            data-accordion-target="#accordion-open-body-2" aria-expanded="true"
+                            aria-controls="accordion-open-body-2">
+                            <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                        clip-rule="evenodd"></path>
+                                </svg> What is the difference between flexbox and grid?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                     clip-rule="evenodd"></path>
-                            </svg> What is the difference between flexbox and grid?</span>
-                        <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
-                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                </h2>
-                <div id="accordion-open-body-2" class="" aria-labelledby="accordion-open-heading-2">
-                    <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
-                        <ul class="list-disc">
-                            <li><span class="text-xl font-bold">Flexbox</span>
-                                <ol class="list-decimal">
-                                    <li>One dimensional</li>
-                                    <li>Allows to distribute space dynamicaly across emlements of an unknown size, hence
-                                        the term “flex”</li>
-                                    <li>Flex items can stretch to the height of the flex container, meaning that equal
-                                        height columns were possible.</li>
-                                </ol>
-                            </li>
-                            <li><span class="text-xl font-bold">Grid</span>
-                                <ol class="list-decimal">
-                                    <li>Multi dimensional</li>
-                                    <li> Grid property offers a grid-based layout system having rows and columns. It
-                                        makes the designing of web pages easy without positioning and floating</li>
-                                    <li>We can use grid to create a similar effect to flexbox, while still keeping the
-                                        content arranged in strict rows and columns.</li>
-                                </ol>
-                            </li>
-                        </ul>
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-open-body-2" class="" aria-labelledby="accordion-open-heading-2">
+                        <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700">
+                            <ul class="list-disc">
+                                <li><span class="text-xl font-bold">Flexbox</span>
+                                    <ol class="list-decimal">
+                                        <li>One dimensional</li>
+                                        <li>Allows to distribute space dynamicaly across emlements of an unknown size,
+                                            hence
+                                            the term “flex”</li>
+                                        <li>Flex items can stretch to the height of the flex container, meaning that
+                                            equal
+                                            height columns were possible.</li>
+                                    </ol>
+                                </li>
+                                <li><span class="text-xl font-bold">Grid</span>
+                                    <ol class="list-decimal">
+                                        <li>Multi dimensional</li>
+                                        <li> Grid property offers a grid-based layout system having rows and columns. It
+                                            makes the designing of web pages easy without positioning and floating</li>
+                                        <li>We can use grid to create a similar effect to flexbox, while still keeping
+                                            the
+                                            content arranged in strict rows and columns.</li>
+                                    </ol>
+                                </li>
+                            </ul>
 
-                        <!-- <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of
+                            <!-- <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of
                             interactive components built on top of Tailwind CSS including buttons, dropdowns, modals,
                             navbars, and more.
                         </p>
                         <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to and start
                             developing websites even faster with components on top of Tailwind CSS.
                         </p> -->
+                        </div>
                     </div>
+
+                    <!-- FAQ 3  -->
+
+
+                    <!-- FAQ 4  -->
+
+
                 </div>
+            </section>
+            <!-- FAQ ends -->
 
-                <!-- FAQ 3  -->
-                
 
-                <!-- FAQ 4  -->
-                
-
-            </div>
-        </section>
-
-        <!-- FAQ ends -->
-
-    </header>
-    <main>
-
-    </main>
-    <!-- flowbite script -->
-    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
-</body>
+        </main>
+        <footer class="mt- h-52 bg-black">
+            <section class="h-full px-2 text-center text-white  flex flex-col justify-center items-center gap-y-2">
+                <h2 class="text-4xl font-semibold">Edu Junction</h2>
+                <p>Office 41, Zawaya Buildin, Ghala Muscat,
+                    Sultanate of Oman</p>
+                <p>Privacy Ploicy | Terms of use</p>
+                <div class="text-4xl text-white space-x-4">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </section>
+        </footer>
+        <!-- flowbite script -->
+        <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    </body>
 
 </html>
